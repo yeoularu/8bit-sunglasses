@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_detection"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-detection"></script>
+    <title>8 bit Sunglasses</title>
+  </head>
+  <body>
+    <main class="container" style="padding-left: 0; text-align: center">
+      <section>
+        <h3>8 bit Sunglasses</h3>
+        <canvas id="canvas" width="640" height="480"></canvas>
+      </section>
+      <section>
+        <h3>Original</h3>
+        <video id="video" width="640" height="480" autoplay></video>
+      </section>
+      <p>Please grant camera access. No data will be sent to the server.</p>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
