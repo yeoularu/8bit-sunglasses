@@ -15,7 +15,7 @@
 
 ## Description
 
-Welcome to the 8-Bit Sunglasses Web! This is a fun and interactive web application that uses Tensorflow.js and your webcam to overlay a 8-bit sunglasses on your face in real-time.
+Welcome to the 8-Bit Sunglasses Web! This is a fun and interactive web application that uses TensorFlow.js and your webcam to overlay a 8-bit sunglasses on your face in real-time.
 
 ## Features
 
@@ -43,9 +43,9 @@ Note: The sunglasses are best viewed when facing the camera directly.
 
 [Pico CSS](https://picocss.com/)
 
-[Tensorflow.js](https://www.tensorflow.org/)
+[TensorFlow.js](https://www.tensorflow.org/)
 
-[Tensorflow.js Face-detection model](https://github.com/tensorflow/tfjs-models/tree/master/face-detection)
+[TensorFlow.js Face-detection model](https://github.com/tensorflow/tfjs-models/tree/master/face-detection)
 
 ## License
 
